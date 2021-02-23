@@ -67,15 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Handlers\TASK4.html" />
+    <Content Include="Handlers\TASK5.html" />
+    <Content Include="Handlers\TASK6.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FAA1.cs" />
-    <Compile Include="FAA6.cs" />
-    <Compile Include="FAA4.cs" />
-    <Compile Include="FAA5.cs" />
-    <Compile Include="FAA3.cs" />
-    <Compile Include="FAA2.cs" />
+    <Compile Include="Handlers\FAA1.cs" />
+    <Compile Include="Handlers\FAA6.cs" />
+    <Compile Include="Handlers\FAA4.cs" />
+    <Compile Include="Handlers\FAA5.cs" />
+    <Compile Include="Handlers\FAA3.cs" />
+    <Compile Include="Handlers\FAA2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
