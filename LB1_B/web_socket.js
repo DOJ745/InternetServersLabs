@@ -4,7 +4,7 @@ var web_socket = null;
 var bstart;
 var bstop;
 window.onload = function() {
-    if(Modernizr.web_socket) {
+    if(Modernizr.websockets) {
         WriteMessage("support", "Да");
         textArea = document.getElementById("textArea");
         bstart = document.getElementById("bstart");
@@ -22,7 +22,7 @@ function WriteMessage(idspan, txt) {
 
 function exe_start() {
     if (web_socket == null) {
-        web_socket = new WebSocket("web_socket:localhost:55927/Websockets.websocket");
+        web_socket = new WebSocket("ws://localhost:44383/Websockets.websocket");
         web_socket.onopen = function() { web_socket.send("Соеднение"); }
         web_socket.onclose = function(s) { console.log("onsclose", s); }
 
