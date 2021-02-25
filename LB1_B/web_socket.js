@@ -22,7 +22,7 @@ function WriteMessage(idspan, txt) {
 
 function exe_start() {
     if (web_socket == null) {
-        web_socket = new WebSocket("ws://localhost:44383/Websockets.websocket");
+        web_socket = new WebSocket("ws://localhost:55927/.websocket");
         web_socket.onopen = function() { web_socket.send("Соеднение"); }
         web_socket.onclose = function(s) { console.log("onsclose", s); }
 
