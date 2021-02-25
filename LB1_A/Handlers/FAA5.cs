@@ -22,7 +22,7 @@ namespace LB1
             HttpRequest rq = context.Request;
             HttpResponse res = context.Response;
 
-            if (rq.HttpMethod.Equals("GET")) { res.WriteFile("TASK5.html"); }
+            if (rq.HttpMethod.Equals("GET")) { res.WriteFile(@"D:\LabsFolder\InternetServersLabs\LB1_A\Handlers\TASK5.html"); }
            
             if (rq.HttpMethod.Equals("POST"))
             {
