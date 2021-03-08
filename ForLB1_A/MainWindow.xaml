@@ -1,0 +1,52 @@
+﻿<Window x:Class="ForLB1_A.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ForLB1_A"
+        mc:Ignorable="d"
+        Title="Send POST Request" 
+        Height="450" Width="450">
+    
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="1" Margin="5px">
+            <TextBlock.Text>Enter address:</TextBlock.Text>
+        </TextBlock>
+
+        <TextBox Grid.Row="1" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
+
+        <TextBlock Grid.Row="2" Grid.Column="1" Margin="5px">
+            <TextBlock.Text>Enter x:</TextBlock.Text>
+        </TextBlock>
+
+        <TextBox Grid.Row="3" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
+
+        <TextBlock Grid.Row="4" Grid.Column="1" Margin="5px">
+            <TextBlock.Text>Enter y:</TextBlock.Text>
+        </TextBlock>
+
+        <TextBox Grid.Row="5" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
+
+        <Button Grid.Row="6" Grid.Column="1"  Margin="5px">
+            <Button.Content>Send POST</Button.Content>
+        </Button>
+
+    </Grid>
+</Window>

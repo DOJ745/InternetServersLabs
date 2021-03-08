@@ -1,0 +1,15 @@
+D:\ForLB1_A\bin\Debug\ForLB1_A.exe.config
+D:\ForLB1_A\bin\Debug\ForLB1_A.exe
+D:\ForLB1_A\bin\Debug\ForLB1_A.pdb
+D:\ForLB1_A\obj\Debug\ForLB1_A.csprojAssemblyReference.cache
+D:\ForLB1_A\obj\Debug\MainWindow.g.cs
+D:\ForLB1_A\obj\Debug\App.g.cs
+D:\ForLB1_A\obj\Debug\ForLB1_A_MarkupCompile.cache
+D:\ForLB1_A\obj\Debug\ForLB1_A_MarkupCompile.lref
+D:\ForLB1_A\obj\Debug\MainWindow.baml
+D:\ForLB1_A\obj\Debug\ForLB1_A.g.resources
+D:\ForLB1_A\obj\Debug\ForLB1_A.Properties.Resources.resources
+D:\ForLB1_A\obj\Debug\ForLB1_A.csproj.GenerateResource.cache
+D:\ForLB1_A\obj\Debug\ForLB1_A.csproj.CoreCompileInputs.cache
+D:\ForLB1_A\obj\Debug\ForLB1_A.exe
+D:\ForLB1_A\obj\Debug\ForLB1_A.pdb
