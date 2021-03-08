@@ -22,7 +22,7 @@
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="1.45*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
@@ -30,21 +30,21 @@
             <TextBlock.Text>Enter address:</TextBlock.Text>
         </TextBlock>
 
-        <TextBox Grid.Row="1" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
+        <TextBox x:Name="url" Grid.Row="1" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
 
         <TextBlock Grid.Row="2" Grid.Column="1" Margin="5px">
             <TextBlock.Text>Enter x:</TextBlock.Text>
         </TextBlock>
 
-        <TextBox Grid.Row="3" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
+        <TextBox x:Name="paramX" Grid.Row="3" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
 
         <TextBlock Grid.Row="4" Grid.Column="1" Margin="5px">
             <TextBlock.Text>Enter y:</TextBlock.Text>
         </TextBlock>
 
-        <TextBox Grid.Row="5" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
+        <TextBox x:Name="paramY" Grid.Row="5" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
 
-        <Button Grid.Row="6" Grid.Column="1"  Margin="5px">
+        <Button Grid.Row="6" Grid.Column="1"  Margin="5px" Click="sendPostReq">
             <Button.Content>Send POST</Button.Content>
         </Button>
 
