@@ -26,19 +26,19 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="1" Margin="5px">
+        <TextBlock Grid.Row="0" Grid.Column="1" Margin="5px" TextAlignment="Center">
             <TextBlock.Text>Enter address:</TextBlock.Text>
         </TextBlock>
 
         <TextBox x:Name="url" Grid.Row="1" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
 
-        <TextBlock Grid.Row="2" Grid.Column="1" Margin="5px">
+        <TextBlock Grid.Row="2" Grid.Column="1" Margin="5px" TextAlignment="Center">
             <TextBlock.Text>Enter x:</TextBlock.Text>
         </TextBlock>
 
         <TextBox x:Name="paramX" Grid.Row="3" Grid.Column="1" Height="25px" Margin="5px"></TextBox>
 
-        <TextBlock Grid.Row="4" Grid.Column="1" Margin="5px">
+        <TextBlock Grid.Row="4" Grid.Column="1" Margin="5px" TextAlignment="Center">
             <TextBlock.Text>Enter y:</TextBlock.Text>
         </TextBlock>
 

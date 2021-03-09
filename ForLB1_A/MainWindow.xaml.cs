@@ -30,7 +30,9 @@ namespace ForLB1_A
 
         private void sendPostReq(object sender, RoutedEventArgs e)
         {
-            string firstParam = "", secondParam = "", address = "";
+            string firstParam;
+            string secondParam;
+            string address;
             try
             {
                 address = url.Text;
@@ -39,7 +41,7 @@ namespace ForLB1_A
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Bad params!" + ex.Message);
+                MessageBox.Show("Bad params! Using standard parameters!" + ex.Message);
                 address = "http://localhost:55972/task4/";
                 firstParam = "1";
                 secondParam = "2";
@@ -47,12 +49,12 @@ namespace ForLB1_A
 
             using (var webClient = new WebClient())
             {
-                var pars = new NameValueCollection();
+                var reqParams = new NameValueCollection();
 
-                pars.Add("x", firstParam);
-                pars.Add("y", secondParam);
+                reqParams.Add("x", firstParam);
+                reqParams.Add("y", secondParam);
 
-                var response = webClient.UploadValues(address, pars);
+                var response = webClient.UploadValues(address, reqParams);
                 string str = Encoding.UTF8.GetString(response);
                 MessageBox.Show(str);
             }

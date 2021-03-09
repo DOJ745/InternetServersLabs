@@ -37,7 +37,7 @@ namespace LB1_B
 
             while (socket.State == WebSocketState.Open)
             {
-                System.Threading.Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 await Send("[" +  (i++).ToString()  + "]");
             }
 
