@@ -44,10 +44,9 @@ namespace LB1_B
         }
         private async Task<string> Receive() 
         {
-            string rc = null;
             var buffer = new ArraySegment<byte>(new byte[512]);
             var result = await socket.ReceiveAsync(buffer, CancellationToken.None);
-            rc = System.Text.Encoding.UTF8.GetString(buffer.Array, 0, result.Count);
+            string rc = System.Text.Encoding.UTF8.GetString(buffer.Array, 0, result.Count);
             return rc;
         }
         private async Task Send(string s) 
