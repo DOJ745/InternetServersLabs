@@ -19,7 +19,7 @@ namespace LB1_B
         WebSocket socket;
         public bool IsReusable
         {
-            get { return true; }
+            get { return false; }
         }
 
         public void ProcessRequest(HttpContext context)
