@@ -1,5 +1,5 @@
 var textArea;
-var web_socket = null;
+var web_sock = null;
 
 var bstart;
 var bstop;
@@ -23,23 +23,28 @@ function WriteMessage(idspan, txt) {
 }
 
 function exe_start() {
-    if (web_socket == null) {
+    if (web_sock == null) {
+        
+        web_sock = new WebSocket("ws://localhost:44383/.websocket");
+        web_sock.onopen = function(e) { 
+            alert("[open] Соединение установлено");
+            web_sock.send("connect"); 
+        }
+        web_sock.onmessage = function(evt) { textArea.innerHTML += "\n" + evt.data; } 
+        web_sock.onclose = function(s) { console.log("onsclose", s); }
 
-        //web_socket.send("connect");
-        web_socket = new WebSocket("ws://localhost:44383/.websocket");
-        // Отправить сообщение через websocket.send()
-        web_socket.onopen = function() { web_socket.send("connect"); } 
-        web_socket.onclose = function(s) { console.log("onsclose", s); }
-        web_socket.onmessage = function(evt) { textArea.innerHTML += "\n" + evt.data; }
-
+        web_sock.onerror = function(error) {
+            alert(`[error] ${error.message}`);
+          };
+        
         bstart.disabled = true;
         bstop.disabled = false;
     }
 }
 
 function exe_stop() {
-    web_socket.close(3001, "stopApplication");
-    web_socket = null;
+    web_sock.close(3001, "stopApplication");
+    web_sock = null;
 
     bstart.disabled = false;
     bstop.disabled = true;
