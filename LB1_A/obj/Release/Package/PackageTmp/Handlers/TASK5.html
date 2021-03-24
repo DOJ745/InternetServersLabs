@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TASK 5</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        function pis() {
+
+            let xhr = new XMLHttpRequest();
+
+            let x = document.getElementById("x").value;
+            let y = document.getElementById("y").value;
+            let data = new FormData();
+
+            data.append('x', x);
+            data.append('y', y);
+
+            let sUrl = "http://localhost:55972/task5/";
+            xhr.open("POST", sUrl, true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    document.getElementById("result").innerHTML += xhr.responseText;
+                }
+            }
+            xhr.send(data);
+}
+    </script>
+
+    <div>
+        <span>Введите x: </span><input type="text" id="x" />
+        <br>
+        <br>
+        <span>Введите y: </span><input type="text" id="y" />
+        <br>
+        <br>
+        <input type="button" value="Вычислить" onclick="pis()" style="width: 170px" />
+    </div>
+
+    <div>
+        <p id="result">x * y = </p>
+    </div>
+
+</body>
+</html>

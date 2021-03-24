@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TASK 4</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        function sum()
+        {
+            let oReq = new XMLHttpRequest();
+
+            let x = document.getElementById("x").value;
+            let y = document.getElementById("y").value;
+
+            let data = new FormData();
+
+            data.append('x', x);
+            data.append('y', y);
+
+            let sUrl = "http://localhost:55972/task4/";
+            oReq.open("POST", sUrl, true);
+            oReq.onreadystatechange = function () {
+                if (oReq.readyState == 4 && oReq.status == 200) {
+                    document.getElementById("result").innerHTML += oReq.responseText;
+                }
+            }
+            oReq.send(data);
+        }
+
+    </script>
+
+    <div>
+        <span>Введите x: </span><input type="text" id="x" />
+        <br />
+        <br />
+        <span>Введите y: </span><input type="text" id="y" />
+        <br />
+        <br />
+        <input type="button" value="Вычислить" onclick="sum()" style="width: 170px" />
+    </div>
+    <div>
+        <p id="result">Сумма </p>
+    </div>
+</body>
+</html>
