@@ -25,7 +25,7 @@ function WriteMessage(idspan, txt) {
 function exe_start() {
     if (web_sock == null) {
         
-        web_sock = new WebSocket("wss://localhost:44383/.websocket");
+        web_sock = new WebSocket("wss://localhost:40722/.websocket");
         web_sock.onopen = function(e) { 
             alert("[open] Соединение установлено");
             web_sock.send("connect"); 
