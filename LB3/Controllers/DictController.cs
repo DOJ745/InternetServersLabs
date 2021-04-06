@@ -29,7 +29,7 @@ namespace LB3.Controllers
             // Извлечь отправленные данные из Request.Form 
             string lastname = Request.Form["lastname"];
             string phone = Request.Form["phone"];
-            return lastname + " --- " + phone;
+            return "<h2>" + lastname + " --- " + phone + "</h2>";
         }
         /*public ActionResult Update() { }
         public ActionResult UpdateSave() { }
