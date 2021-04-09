@@ -45,9 +45,26 @@ namespace LB3.Controllers
             using (StreamReader sr = new StreamReader(@"D:\json.txt"))
             using (JsonReader reader = new JsonTextReader(sr))
             {
-                readContacts = (List<Contact>)deserializer.Deserialize(reader);
+                readContacts = deserializer.Deserialize<List<Contact>>(reader);
             }
             return readContacts;
+        }
+
+        public override string ToString()
+        {
+            return $"[{this.lastname} --- {this.phone}]";
+        }
+
+        public static string getSortedStrCollection(List<Contact> collection)
+        {
+            string sortedCollection = "";
+            var sortedContacts = collection.OrderBy(elem => elem.lastname);
+
+            foreach (Contact contact in sortedContacts)
+            {
+                sortedCollection += contact.ToString() + "\n";
+            }
+            return sortedCollection;
         }
     }
     public class DictController : Controller
@@ -55,7 +72,22 @@ namespace LB3.Controllers
         // GET: Dict
         public ActionResult Index()
         {
-            Contact createCollection = new Contact();
+            List<Contact> currentCollection = new List<Contact>();
+            string collection = "";
+
+            if (System.IO.File.Exists(@"D:\json.txt"))
+            {
+                currentCollection = Contact.readJSON();
+                collection = Contact.getSortedStrCollection(currentCollection);
+            }
+            else
+            {
+                Contact createCollection = new Contact();
+                currentCollection = Contact.CONTACTS;
+                collection = Contact.getSortedStrCollection(currentCollection);
+            }
+            
+            ViewData["Contacts"] = collection;
             return View();
         }
         public ActionResult Add() 
@@ -68,14 +100,13 @@ namespace LB3.Controllers
             string lastname = Request.Form["lastname"];
             string phone = Request.Form["phone"];
 
-            Contact newContact = new Contact();
-            newContact.lastname = lastname;
-            newContact.phone = phone;
+            Contact newContact = new Contact(lastname, phone);
 
             Contact.CONTACTS.Add(newContact);
             Contact.writeJSON(Contact.CONTACTS);
             return "<h2>Contact has been added - [" + lastname + " --- " + phone + "]</h2>";
         }
+
         /*public ActionResult Update() 
         {
             return View();
