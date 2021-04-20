@@ -54,18 +54,6 @@ namespace LB3.Controllers
         {
             return $"[{this.lastname} --- {this.phone}]";
         }
-
-        public static string getSortedStrCollection(List<Contact> collection)
-        {
-            string sortedCollection = "";
-            var sortedContacts = collection.OrderBy(elem => elem.lastname);
-
-            foreach (Contact contact in sortedContacts)
-            {
-                sortedCollection += contact.ToString() + "\n";
-            }
-            return sortedCollection;
-        }
     }
     public class DictController : Controller
     {
@@ -78,16 +66,14 @@ namespace LB3.Controllers
             if (System.IO.File.Exists(@"D:\json.txt"))
             {
                 currentCollection = Contact.readJSON();
-                collection = Contact.getSortedStrCollection(currentCollection);
             }
             else
             {
                 Contact createCollection = new Contact();
                 currentCollection = Contact.CONTACTS;
-                collection = Contact.getSortedStrCollection(currentCollection);
             }
             
-            ViewData["Contacts"] = collection;
+            ViewData["Contacts"] = currentCollection;
             return View();
         }
         public ActionResult Add() 
@@ -107,15 +93,17 @@ namespace LB3.Controllers
             return "<h2>Contact has been added - [" + lastname + " --- " + phone + "]</h2>";
         }
 
-        /*public ActionResult Update() 
+        public ActionResult Update() 
         {
             return View();
         }
-        public ActionResult UpdateSave() 
-        { 
-
+        public string UpdateSave() 
+        {
+            string lastname = Request.Form["lastname"];
+            string phone = Request.Form["phone"];
+            return "<h2>Contact has been updated - [" + lastname + " --- " + phone + "]</h2>";
         }
-        public ActionResult Delete() 
+        /*public ActionResult Delete() 
         {
             return View();
         }
