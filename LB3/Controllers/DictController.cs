@@ -64,7 +64,7 @@ namespace LB3.Controllers
     public class DictController : Controller
     {
         public static List<Contact> CURRENT_CONTACTS = new List<Contact>();
-        // GET: Dict
+
         public ActionResult Index()
         {
 

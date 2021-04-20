@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add Contact</title>
+</head>
+<body>
+    <h2>Adding contact to JSON</h2>
+    <form method="post" action="~/Dict/AddSave">
+        <label>Enter lastname: </label> <input type="text" value="temp" name="lastname" />
+        <br /><br />
+        <label>Enter phone number: </label> <input type="tel" name="phone" />
+        <br /><br />
+        <input type="submit" value="Save to JSON"/>
+    </form>
+</body>
+</html>
