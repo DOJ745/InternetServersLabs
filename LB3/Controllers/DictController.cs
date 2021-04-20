@@ -2,21 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using System.Web.Routing;
 
 namespace LB3.Controllers
 {
     public class Contact
     {
-        public static List<Contact> CONTACTS = new List<Contact>();
-        public Contact() 
-        {
-            CONTACTS.Add(new Contact("Helkar", "+1 800 987 353"));
-            CONTACTS.Add(new Contact("Bill", "+1 800 123 444"));
-        }
+        public Contact() {}
         public Contact(string _lastname, string _phone) 
         {
             this.lastname = _lastname;
@@ -54,6 +46,20 @@ namespace LB3.Controllers
         {
             return $"[{this.lastname} --- {this.phone}]";
         }
+
+        
+        public override bool Equals(object obj)
+        {
+            if (obj == null) return false;
+
+            Contact objAsContact = obj as Contact;
+            if (objAsContact == null) return false;
+
+            if (this.lastname.Equals(objAsContact.lastname) && 
+                this.phone.Equals(objAsContact.phone)) return true;
+
+            else return false;
+        }
     }
     public class DictController : Controller
     {
@@ -68,8 +74,13 @@ namespace LB3.Controllers
             }
             else
             {
-                Contact createCollection = new Contact();
-                CURRENT_CONTACTS = Contact.CONTACTS;
+                List<Contact> defaultContacts = new List<Contact>();
+
+                defaultContacts.Add(new Contact() { lastname = "Bill", phone = "1-800-900-234" });
+                defaultContacts.Add(new Contact() { lastname = "Joe", phone = "1-233-424-555" });
+
+                CURRENT_CONTACTS = defaultContacts;
+                Contact.writeJSON(CURRENT_CONTACTS);
             }
             
             ViewData["Contacts"] = CURRENT_CONTACTS;
@@ -98,8 +109,8 @@ namespace LB3.Controllers
         }
         public string UpdateSave() 
         {
-            string oldLastname = Request.Form["oldLastname"];
-            string oldPhone = Request.Form["oldPhone"];
+            string oldLastname = Request.Params.Get("oldLastname");
+            string oldPhone = Request.Params.Get("oldPhone");
 
             string newLastname = Request.Form["lastname"];
             string newPhone = Request.Form["phone"];
@@ -109,6 +120,8 @@ namespace LB3.Controllers
 
             Contact updatedContact = new Contact(newLastname, newPhone);
             CURRENT_CONTACTS.Add(updatedContact);
+
+            Contact.writeJSON(CURRENT_CONTACTS);
 
             return "<h2>Contact [" + oldLastname + " --- " + oldPhone + "] has been updated - " +
                 "[" + newLastname + " --- " + newPhone + "]</h2>";
@@ -120,14 +133,14 @@ namespace LB3.Controllers
         }
         public string DeleteSave() 
         {
-            string lastname = Request.Form["lastname"];
-            string phone = Request.Form["phone"];
+            string oldLastname = Request.Params.Get("oldLastname");
+            string oldPhone = Request.Params.Get("oldPhone");
 
-            Contact deletedContact = new Contact(lastname, phone);
+            Contact deletedContact = new Contact(oldLastname, oldPhone);
             CURRENT_CONTACTS.Remove(deletedContact);
             Contact.writeJSON(CURRENT_CONTACTS);
 
-            return "<h2>Contact has been deleted - [" + lastname + " --- " + phone + "]</h2>";
+            return "<h2>Contact has been deleted - [" + oldLastname + " --- " + oldPhone + "]</h2>";
         }
     }
 }

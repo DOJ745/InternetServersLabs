@@ -1,6 +1,9 @@
 ﻿
 @{
     Layout = null;
+    string oldContact = @Request.Params.Get("contact");
+    string oldLastName = oldContact.Substring(0, oldContact.IndexOf("_"));
+    string oldPhone = oldContact.Substring(oldContact.IndexOf("_") + 1, oldContact.Length - oldLastName.Length - 1);
 }
 
 <!DOCTYPE html>
@@ -11,12 +14,15 @@
     <title>Update page</title>
 </head>
 <body>
-    <form method="post" action="~/Dict/UpdateSave">
-        <label>Enter lastname: </label> <input type="text" value="temp" name="lastname" />
+    <form method="post" action="~/Dict/UpdateSave?oldLastname=@oldLastName&oldPhone=@oldPhone">
+        <label>Old contact: @oldLastName - @oldPhone</label>
         <br /><br />
-        <label>Enter phone number: </label> <input type="tel" name="phone" />
         <br /><br />
-        <input type="submit" value="Save to JSON" />
+        <label>Enter new lastname: </label> <input type="text" value="temp" name="lastname" />
+        <br /><br />
+        <label>Enter new phone number: </label> <input type="tel" name="phone" />
+        <br /><br />
+        <input type="submit" value="Save to JSON(UPDATE)" />
     </form>
 </body>
 </html>

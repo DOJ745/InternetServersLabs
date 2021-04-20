@@ -20,21 +20,35 @@
 <body>
     <h1>Telephone Dictionary</h1>
 
-    <form>
-        <p>Select contact to Update/Delete:</p>
+    <a href="~/Dict/Add">Add contact</a>
+
+    <form method="get" action="~/Dict/Update">
+        <p>Select contact to Update</p>
         @foreach (Contact elem in sortedContacts)
         {
-            <p><input type="radio" name="contact" id="@(elem.phone)" value="@(elem.lastname)"> 
+            <p>
+                <input type="radio" name="contact" value="@(elem.lastname + "_" + elem.phone)">
                 [@elem.lastname] - [@elem.phone]
             </p>
         }
-    </form> 
+        <input type="submit" value="Update" />
+    </form>
 
-    <a href="~/Dict/Add">Add contact</a>
-    <br />
-    <a href="~/Dict/Update?oldname=@oldName&oldphone=@oldPhone">Update contact</a>
-    <br />
-    <a href="~/Dict/Delete?oldname=@oldName&oldphone=@oldPhone">Delete contact</a>
+    <br /> <br />
+
+    <form method="get" action="~/Dict/Delete">
+        <p>Select contact to Delete</p>
+        @foreach (Contact elem in sortedContacts)
+        {
+            <p>
+                <input type="radio" name="contact" value="@(elem.lastname + "_" + elem.phone)">
+                [@elem.lastname] - [@elem.phone]
+            </p>
+        }
+        <input type="submit" value="Delete" />
+    </form>
+
+    <!-- -->
 </body>
 
 </html>

@@ -1,6 +1,9 @@
 ﻿
 @{
     Layout = null;
+    string oldContact = @Request.Params.Get("contact");
+    string oldLastName = oldContact.Substring(0, oldContact.IndexOf("_"));
+    string oldPhone = oldContact.Substring(oldContact.IndexOf("_") + 1, oldContact.Length - oldLastName.Length - 1);
 }
 
 <!DOCTYPE html>
@@ -11,7 +14,13 @@
     <title>Delete page</title>
 </head>
 <body>
-    <div> 
-    </div>
+    <form method="post" action="~/Dict/DeleteSave?oldLastname=@oldLastName&oldPhone=@oldPhone">
+        <label>Old phone: @oldPhone</label>
+        <br /><br />
+        <label>Old name: @oldLastName</label>
+        <br /><br />
+        <br /><br />
+        <input type="submit" value="Save to JSON(DELETE)" />
+    </form>
 </body>
 </html>
