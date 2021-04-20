@@ -57,23 +57,22 @@ namespace LB3.Controllers
     }
     public class DictController : Controller
     {
+        public static List<Contact> CURRENT_CONTACTS = new List<Contact>();
         // GET: Dict
         public ActionResult Index()
         {
-            List<Contact> currentCollection = new List<Contact>();
-            string collection = "";
 
             if (System.IO.File.Exists(@"D:\json.txt"))
             {
-                currentCollection = Contact.readJSON();
+                CURRENT_CONTACTS = Contact.readJSON();
             }
             else
             {
                 Contact createCollection = new Contact();
-                currentCollection = Contact.CONTACTS;
+                CURRENT_CONTACTS = Contact.CONTACTS;
             }
             
-            ViewData["Contacts"] = currentCollection;
+            ViewData["Contacts"] = CURRENT_CONTACTS;
             return View();
         }
         public ActionResult Add() 
@@ -88,8 +87,8 @@ namespace LB3.Controllers
 
             Contact newContact = new Contact(lastname, phone);
 
-            Contact.CONTACTS.Add(newContact);
-            Contact.writeJSON(Contact.CONTACTS);
+            CURRENT_CONTACTS.Add(newContact);
+            Contact.writeJSON(CURRENT_CONTACTS);
             return "<h2>Contact has been added - [" + lastname + " --- " + phone + "]</h2>";
         }
 
@@ -99,17 +98,36 @@ namespace LB3.Controllers
         }
         public string UpdateSave() 
         {
-            string lastname = Request.Form["lastname"];
-            string phone = Request.Form["phone"];
-            return "<h2>Contact has been updated - [" + lastname + " --- " + phone + "]</h2>";
+            string oldLastname = Request.Form["oldLastname"];
+            string oldPhone = Request.Form["oldPhone"];
+
+            string newLastname = Request.Form["lastname"];
+            string newPhone = Request.Form["phone"];
+
+            Contact oldContact = new Contact(oldLastname, oldPhone);
+            CURRENT_CONTACTS.Remove(oldContact);
+
+            Contact updatedContact = new Contact(newLastname, newPhone);
+            CURRENT_CONTACTS.Add(updatedContact);
+
+            return "<h2>Contact [" + oldLastname + " --- " + oldPhone + "] has been updated - " +
+                "[" + newLastname + " --- " + newPhone + "]</h2>";
         }
-        /*public ActionResult Delete() 
+
+        public ActionResult Delete() 
         {
             return View();
         }
-        public ActionResult DeleteSave() 
+        public string DeleteSave() 
         {
-            
-        }*/
+            string lastname = Request.Form["lastname"];
+            string phone = Request.Form["phone"];
+
+            Contact deletedContact = new Contact(lastname, phone);
+            CURRENT_CONTACTS.Remove(deletedContact);
+            Contact.writeJSON(CURRENT_CONTACTS);
+
+            return "<h2>Contact has been deleted - [" + lastname + " --- " + phone + "]</h2>";
+        }
     }
 }

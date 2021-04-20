@@ -3,13 +3,10 @@
     Layout = null;
     List<Contact> contacts = (List<Contact>)ViewData["Contacts"];
 
-    string sortedCollection = "";
     var sortedContacts = contacts.OrderBy(elem => elem.lastname);
 
-    foreach (Contact contact in sortedContacts)
-    {
-        sortedCollection += contact.ToString() + "\n";
-    }
+    string oldName = "";
+    string oldPhone = "";
 }
 
 <!DOCTYPE html>
@@ -22,18 +19,22 @@
 
 <body>
     <h1>Telephone Dictionary</h1>
-    <p>@ViewData["Contacts"]</p>
 
-    @foreach(Contact elem in sortedContacts)
-            {
-                <p>[@elem.lastname] - [@elem.phone]</p>
-            }
+    <form>
+        <p>Select contact to Update/Delete:</p>
+        @foreach (Contact elem in sortedContacts)
+        {
+            <p><input type="radio" name="contact" id="@(elem.phone)" value="@(elem.lastname)"> 
+                [@elem.lastname] - [@elem.phone]
+            </p>
+        }
+    </form> 
 
     <a href="~/Dict/Add">Add contact</a>
     <br />
-    <a href="~/Dict/Update">Update contact</a>
+    <a href="~/Dict/Update?oldname=@oldName&oldphone=@oldPhone">Update contact</a>
     <br />
-    <a href="~/Dict/Delete">Delete contact</a>
+    <a href="~/Dict/Delete?oldname=@oldName&oldphone=@oldPhone">Delete contact</a>
 </body>
 
 </html>
