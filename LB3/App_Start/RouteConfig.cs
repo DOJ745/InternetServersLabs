@@ -19,6 +19,7 @@ namespace LB3
                 defaults: new { controller = "Dict", action = "Index" }
             );
 
+            /*
             // ----------- ADD -----------
 
             routes.MapRoute(
@@ -59,7 +60,7 @@ namespace LB3
                 name: "DictDeleteSave",
                 url: "{controller}/{action}",
                 defaults: new { controller = "Dict", action = "DeleteSave" }
-            );
+            );*/
 
             // ----------- DEFAULT -----------
 
