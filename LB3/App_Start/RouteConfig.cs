@@ -27,6 +27,14 @@ namespace LB3
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            // ----------- ERROR -----------
+
+            routes.MapRoute(
+                name: "Error",
+                url: "{*url}",
+                defaults: new { controller = "Error", action = "NotFound" }
+            );
         }
     }
 }
