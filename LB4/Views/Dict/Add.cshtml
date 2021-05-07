@@ -8,10 +8,15 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Add</title>
+    <title>Add Contact</title>
 </head>
 <body>
-    <div> 
-    </div>
+    <form method="post" action="~/Dict/AddSave">
+        <label>Enter lastname: </label> <input type="text" name="name" />
+        <br /><br />
+        <label>Enter phone number: </label> <input type="text" name="number" />
+        <br/><br/>
+        <input type="submit" value="ADD" />
+    </form>
 </body>
 </html>

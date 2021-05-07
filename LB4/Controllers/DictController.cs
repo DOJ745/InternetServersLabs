@@ -12,6 +12,7 @@ namespace LB4.Controllers
     {
         // GET: Dict
         PhoneBookContext db = new PhoneBookContext();
+
         public ActionResult Index()
         {
             ViewBag.PhoneBooks = db.Contacts.OrderBy(entry => entry.LastName);
@@ -29,6 +30,7 @@ namespace LB4.Controllers
         {
             db.Contacts.Add(new Contact() { LastName = lastName, Number = phone });
             db.SaveChanges();
+
             ViewBag.PhoneBooks = db.Contacts;
             return Redirect("/Dict/Index");
         }
@@ -49,8 +51,10 @@ namespace LB4.Controllers
             {
                 contact.LastName = lastName;
                 contact.Number = phone;
+
                 db.Entry(contact).State = EntityState.Modified;
                 db.SaveChanges();
+
                 ViewBag.PhoneBooks = db.Contacts;
             }
 
@@ -73,6 +77,7 @@ namespace LB4.Controllers
             {
                 db.Contacts.Remove(contact);
                 db.SaveChanges();
+
                 ViewBag.PhoneBooks = db.Contacts;
             }
             return View("Index");
