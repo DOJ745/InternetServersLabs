@@ -95,6 +95,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\CotactsDatabase.mdf" />
+    <Content Include="App_Data\CotactsDatabase_log.ldf">
+      <DependentUpon>CotactsDatabase.mdf</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -121,7 +125,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Views\Dict\" />
   </ItemGroup>
   <PropertyGroup>
