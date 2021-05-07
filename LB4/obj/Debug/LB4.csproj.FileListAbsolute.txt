@@ -80,3 +80,7 @@ D:\LabsFolder\InternetServersLabs\LB4\obj\Debug\LB4.csproj.CoreCompileInputs.cac
 D:\LabsFolder\InternetServersLabs\LB4\obj\Debug\LB4.csproj.CopyComplete
 D:\LabsFolder\InternetServersLabs\LB4\obj\Debug\LB4.dll
 D:\LabsFolder\InternetServersLabs\LB4\obj\Debug\LB4.pdb
+D:\LabsFolder\InternetServersLabs\LB4\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\LabsFolder\InternetServersLabs\LB4\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\LabsFolder\InternetServersLabs\LB4\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+D:\LabsFolder\InternetServersLabs\LB4\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
