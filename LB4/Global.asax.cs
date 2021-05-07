@@ -14,6 +14,7 @@ namespace LB4
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
 
+        /*
         protected void Application_Error(Object sender, EventArgs e)
         {
             var httpContext = ((MvcApplication)sender).Context;
@@ -66,6 +67,6 @@ namespace LB4
 
             controller.ViewData.Model = new HandleErrorInfo(ex, currentController, currentAction);
             ((IController)controller).Execute(new RequestContext(new HttpContextWrapper(httpContext), routeData));
-        }
+        }*/
     }
 }
