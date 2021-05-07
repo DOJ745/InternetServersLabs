@@ -11,7 +11,29 @@
     <title>Index</title>
 </head>
 <body>
-    <div> 
+    <div>
+        <form method="get" action="~/Dict/Add"><input type="submit" value="Add contact" /></form>
+        <hr />
+        @foreach (var item in ViewBag.PhoneBooks)
+        {
+            @item.Name
+            <br />
+            @item.Number
+            <table>
+                <tr>
+                    <td>
+                        <form method="get" action="~/Dict/Update"><input type="submit" value="Update" />
+                        <input type="hidden" name="id" value="@item.Id" /></form>
+                    </td>
+
+                    <td>
+                    <form method="get" action="~/Dict/Delete"><input type="submit" value="Delete" /> 
+                        <input type="hidden" name="id" value="@item.Id" />
+                        </form></td>
+                </tr>
+            </table>
+            <hr />
+        }
     </div>
 </body>
 </html>
