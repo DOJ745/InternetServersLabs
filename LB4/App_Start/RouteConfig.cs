@@ -11,7 +11,7 @@ namespace LB4
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("{resource}.yns/{*pathInfo}");
 
             routes.MapRoute(
                 name: "Default",
@@ -23,12 +23,6 @@ namespace LB4
                 name: "Error",
                 url: "{*url}",
                 defaults: new { controller = "Error", action = "NotFound" }
-            );
-
-            routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
