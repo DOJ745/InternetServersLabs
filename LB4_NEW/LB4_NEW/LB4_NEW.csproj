@@ -121,6 +121,9 @@
     <None Include="packages.config" />
     <Content Include="Views\Error\NotFound.cshtml" />
     <Content Include="Views\Dict\Index.cshtml" />
+    <Content Include="Views\Dict\Add.cshtml" />
+    <Content Include="Views\Dict\Update.cshtml" />
+    <Content Include="Views\Dict\Delete.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
