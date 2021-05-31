@@ -26,15 +26,15 @@ namespace LB5_A.Controllers
             RouteValueDictionary routeDictionary = this.RouteData.Values;
             StringBuilder response = new StringBuilder();
 
+            response.AppendLine("<h3>Headers</h3>");
             foreach (string key in Request.Headers)
             {
                 var value = Request.Headers[key];
                 response.AppendLine(value + "<br />");
             }
 
-            response.AppendLine("Raw URI - " + Request.RawUrl + "<br />");
-            response.AppendLine("Status - " + Response.Status + "<br />");
-            response.AppendLine("Body (form) - " + Request.Form + "<br />");
+            response.AppendLine("<p>Status code - <h5>" + Response.Status + "</h5></p>");
+            response.AppendLine("<p>Body (form) - <h5>" + Request.Form + "</h5></p>");
 
             Response.Write(response.ToString());
             ViewBag.Rd = routeDictionary;

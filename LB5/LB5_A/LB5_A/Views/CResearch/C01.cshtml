@@ -2,7 +2,7 @@
 @{
     Layout = null;
     RouteValueDictionary routeDictionary = ViewBag.rd;
-    Dictionary<string, object>.Enumerator enumerator = routeDictionary.GetEnumerator();
+    Dictionary<string, object>.Enumerator routeParams = routeDictionary.GetEnumerator();
 }
 
 <!DOCTYPE html>
@@ -17,9 +17,9 @@
 
     <div style="font-size: 20px;">
         <p>
-            @while (enumerator.MoveNext())
+            @while (routeParams.MoveNext())
             {
-               @enumerator.Current.Key @:= @enumerator.Current.Value.ToString() <br />
+               @routeParams.Current.Key @:= @routeParams.Current.Value.ToString() <br />
             }
         </p>
 

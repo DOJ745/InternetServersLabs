@@ -14,11 +14,11 @@ namespace LB5_A
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
 
-            routes.MapRoute(
+            /*routes.MapRoute(
                 name: "TEST",
                 url: "*url",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+            );*/
 
             routes.MapRoute(
                name: "M-1",

@@ -1,6 +1,8 @@
 ﻿
 @{
     Layout = null;
+    RouteValueDictionary routeDictionary = ViewBag.rd;
+    Dictionary<string, object>.Enumerator routeParams = routeDictionary.GetEnumerator();
 }
 
 <!DOCTYPE html>
@@ -11,7 +13,8 @@
     <title>C02</title>
 </head>
 <body>
-    <div> 
-    </div>
+
+    <h2>C02 Page</h2>
+
 </body>
 </html>
