@@ -1,6 +1,8 @@
 ﻿
 @{
     Layout = null;
+    RouteValueDictionary routeDictionary = ViewBag.rd;
+    Dictionary<string, object>.Enumerator enumerator = routeDictionary.GetEnumerator();
 }
 
 <!DOCTYPE html>
@@ -11,7 +13,33 @@
     <title>C01</title>
 </head>
 <body>
-    <div> 
+    <h2>C01 Page</h2>
+
+    <div style="font-size: 20px;">
+        <p>
+            @while (enumerator.MoveNext())
+            {
+               @enumerator.Current.Key @:= @enumerator.Current.Value.ToString() <br />
+            }
+        </p>
+
+        <p>Method: <h5>@Request.HttpMethod</h5></p>
+
+        <p>Query String: <h5>@Request.QueryString</h5></p>
+
+        <p>RAW Url: <h5>@Request.RawUrl</h5></p>
+
+        <p>URI: <h5>@Request.Url.AbsoluteUri</h5></p>
+
+        <p>Headers: <h5>@Request.Headers</h5></p>
+
+        @if (@Request.HttpMethod == "POST")
+        {
+            <p><h3>body: @Request.Form</h3></p>
+        }
+
+
     </div>
+
 </body>
 </html>
