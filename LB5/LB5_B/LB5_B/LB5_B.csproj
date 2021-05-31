@@ -153,6 +153,11 @@
     <Content Include="ApplicationInsights.config" />
     <None Include="packages.config" />
     <Content Include="Views\AResearch\Index.cshtml" />
+    <Content Include="Views\MResearch\MXX.cshtml" />
+    <Content Include="Views\MResearch\M01.cshtml" />
+    <Content Include="Views\MResearch\M02.cshtml" />
+    <Content Include="Views\MResearch\M03.cshtml" />
+    <Content Include="Views\MResearch\M04.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -164,7 +169,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\CHResearch\" />
-    <Folder Include="Views\MResearch\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
