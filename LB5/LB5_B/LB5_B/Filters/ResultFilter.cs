@@ -10,12 +10,12 @@ namespace LB5_B.Filters
     {
         public void OnResultExecuted(ResultExecutedContext filterContext)
         {
-            filterContext.HttpContext.Response.Write("<div class=\"container\"><h3>RESULT filter executed</h3></div>");
+            filterContext.HttpContext.Response.Write("<h3>RESULT filter executed</h3>");
         }
 
         public void OnResultExecuting(ResultExecutingContext filterContext)
         {
-            filterContext.HttpContext.Response.Write("<div class=\"container\"><h3>RESULT filter executing...</h3></div>");
+            filterContext.HttpContext.Response.Write("<h3>RESULT filter executing...</h3>");
         }
     }
 }

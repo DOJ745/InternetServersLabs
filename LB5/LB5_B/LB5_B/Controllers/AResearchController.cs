@@ -18,7 +18,7 @@ namespace LB5_B.Controllers
         [ActionFilter]
         public ActionResult AA(int? id)
         {
-            Response.Write("<div class=\"container\"><h2>AA Action(ID): " + id.Value + "</h2></div>");
+            Response.Write("<h2>AA Action(ID): " + id.Value + "</h2>");
             return View("Index");
         }
 
@@ -31,7 +31,7 @@ namespace LB5_B.Controllers
         [ResultFilter]
         public ActionResult AR()
         {
-            Response.Write("<div class=\"container\"><h2>AR Action</h2></div>");
+            Response.Write("<h2>AR Action</h2>");
             return View("Index");
         }
 
