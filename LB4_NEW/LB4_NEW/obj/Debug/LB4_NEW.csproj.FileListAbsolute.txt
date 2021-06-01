@@ -75,10 +75,10 @@ D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\bin\ru\System.Web.Webpages.Dep
 D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\bin\ru\System.Web.Webpages.Razor.resources.dll
 D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\bin\ru\System.Web.Helpers.resources.dll
 D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\bin\ru\System.Web.Mvc.resources.dll
-D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\obj\Debug\LB4_NEW.csprojAssemblyReference.cache
 D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\obj\Debug\LB4_NEW.csproj.CoreCompileInputs.cache
 D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\obj\Debug\LB4_NEW.csproj.CopyComplete
 D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\obj\Debug\LB4_NEW.dll
 D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\obj\Debug\LB4_NEW.pdb
 D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\bin\Antlr3.Runtime.dll
 D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\bin\Antlr3.Runtime.pdb
+D:\LabsFolder\InternetServersLabs\LB4_NEW\LB4_NEW\obj\Debug\LB4_NEW.csproj.AssemblyReference.cache

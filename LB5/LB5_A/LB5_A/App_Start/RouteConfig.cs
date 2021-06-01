@@ -21,30 +21,30 @@ namespace LB5_A
             );*/
 
             routes.MapRoute(
-               name: "M-1",
+               name: "M_02_V2",
                url: "V2",
                defaults: new { controller = "MResearch", action = "M02" }
             );
 
             routes.MapRoute(
-               name: "M-2",
+               name: "M_03_V3",
                url: "V3",
                defaults: new { controller = "MResearch", action = "M03" }
             );
 
             routes.MapRoute(
-                name: "M-3",
+                name: "M_01_MResearch",
                 url: "MResearch",
                 defaults: new { controller = "MResearch", action = "M01" }
             );
 
             routes.MapRoute(
-              name: "M-4",
+              name: "M_V2",
               url: "V2/{controller}/{action}/{id}",
-              defaults: new { controller = "MResearch", id = UrlParameter.Optional }
+              defaults: new { controller = "MResearch", action = UrlParameter.Optional, id = UrlParameter.Optional }
             );
 
-            routes.MapRoute(
+            /*routes.MapRoute(
               name: "M-8",
               url: "V2/{controller}",
               defaults: new { controller = "MResearch", action = "M02" }
@@ -78,7 +78,7 @@ namespace LB5_A
                 name: "M",
                 url: "",
                 defaults: new { controller = "MResearch", action = "M01", id = UrlParameter.Optional }
-            );
+            );*/
 
 
             routes.MapRoute(
