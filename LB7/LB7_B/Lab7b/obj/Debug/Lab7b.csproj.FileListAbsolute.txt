@@ -1,0 +1,30 @@
+E:\labs\BELSTU\SERVER_prog\Lab7b\Lab7b\bin\Debug\Lab7b.exe.config
+E:\labs\BELSTU\SERVER_prog\Lab7b\Lab7b\bin\Debug\Lab7b.exe
+E:\labs\BELSTU\SERVER_prog\Lab7b\Lab7b\bin\Debug\Lab7b.pdb
+E:\labs\BELSTU\SERVER_prog\Lab7b\Lab7b\obj\Debug\Lab7b.csprojAssemblyReference.cache
+E:\labs\BELSTU\SERVER_prog\Lab7b\Lab7b\obj\Debug\Lab7b.Form1.resources
+E:\labs\BELSTU\SERVER_prog\Lab7b\Lab7b\obj\Debug\Lab7b.Properties.Resources.resources
+E:\labs\BELSTU\SERVER_prog\Lab7b\Lab7b\obj\Debug\Lab7b.csproj.GenerateResource.cache
+E:\labs\BELSTU\SERVER_prog\Lab7b\Lab7b\obj\Debug\Lab7b.csproj.CoreCompileInputs.cache
+E:\labs\BELSTU\SERVER_prog\Lab7b\Lab7b\obj\Debug\Lab7b.exe
+E:\labs\BELSTU\SERVER_prog\Lab7b\Lab7b\obj\Debug\Lab7b.pdb
+C:\Users\Paul\Desktop\Lab7b\Lab7b\bin\Debug\Lab7b.exe.config
+C:\Users\Paul\Desktop\Lab7b\Lab7b\bin\Debug\Lab7b.exe
+C:\Users\Paul\Desktop\Lab7b\Lab7b\bin\Debug\Lab7b.pdb
+C:\Users\Paul\Desktop\Lab7b\Lab7b\obj\Debug\Lab7b.csprojAssemblyReference.cache
+C:\Users\Paul\Desktop\Lab7b\Lab7b\obj\Debug\Lab7b.Form1.resources
+C:\Users\Paul\Desktop\Lab7b\Lab7b\obj\Debug\Lab7b.Properties.Resources.resources
+C:\Users\Paul\Desktop\Lab7b\Lab7b\obj\Debug\Lab7b.csproj.GenerateResource.cache
+C:\Users\Paul\Desktop\Lab7b\Lab7b\obj\Debug\Lab7b.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\Lab7b\Lab7b\obj\Debug\Lab7b.exe
+C:\Users\Paul\Desktop\Lab7b\Lab7b\obj\Debug\Lab7b.pdb
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\Lab7b\bin\Debug\Lab7b.exe.config
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\Lab7b\bin\Debug\Lab7b.exe
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\Lab7b\bin\Debug\Lab7b.pdb
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\Lab7b\obj\Debug\Lab7b.csprojAssemblyReference.cache
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\Lab7b\obj\Debug\Lab7b.Form1.resources
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\Lab7b\obj\Debug\Lab7b.Properties.Resources.resources
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\Lab7b\obj\Debug\Lab7b.csproj.GenerateResource.cache
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\Lab7b\obj\Debug\Lab7b.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\Lab7b\obj\Debug\Lab7b.exe
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\Lab7b\obj\Debug\Lab7b.pdb

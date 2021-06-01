@@ -1,0 +1,240 @@
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\ASMX.dll.config
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\ASMX.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\ASMX.pdb
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\csc.exe
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\csc.exe.config
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\csc.rsp
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\csi.exe
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\csi.exe.config
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\csi.rsp
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.AppContext.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Collections.Immutable.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Console.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Diagnostics.Process.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.IO.Compression.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.IO.Pipes.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Reflection.Metadata.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Security.AccessControl.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Security.Claims.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Security.Principal.Windows.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Threading.Thread.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.ValueTuple.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Xml.XmlDocument.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Xml.XPath.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\vbc.exe
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\vbc.exe.config
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\vbc.rsp
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\VBCSCompiler.exe
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\roslyn\VBCSCompiler.exe.config
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\Newtonsoft.Json.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\Newtonsoft.Json.xml
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\obj\Debug\ASMX.csproj.CoreCompileInputs.cache
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\obj\Debug\ASMX.csproj.CopyComplete
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\obj\Debug\ASMX.dll
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\obj\Debug\ASMX.pdb
+E:\labs\BELSTU\SERVER_prog\Lab7b\ASMX\obj\Debug\ASMX.csprojAssemblyReference.cache
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\ASMX.dll.config
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\ASMX.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\ASMX.pdb
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\csc.exe
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\csc.exe.config
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\csc.rsp
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\csi.exe
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\csi.exe.config
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\csi.rsp
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.AppContext.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Console.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.IO.Compression.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Security.Claims.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.ValueTuple.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\vbc.exe
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\vbc.exe.config
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\vbc.rsp
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\VBCSCompiler.exe
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\Newtonsoft.Json.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\Newtonsoft.Json.xml
+C:\Users\Paul\Desktop\Lab7b\ASMX\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Paul\Desktop\Lab7b\ASMX\obj\Debug\ASMX.csprojAssemblyReference.cache
+C:\Users\Paul\Desktop\Lab7b\ASMX\obj\Debug\ASMX.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\Lab7b\ASMX\obj\Debug\ASMX.csproj.CopyComplete
+C:\Users\Paul\Desktop\Lab7b\ASMX\obj\Debug\ASMX.dll
+C:\Users\Paul\Desktop\Lab7b\ASMX\obj\Debug\ASMX.pdb
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\ASMX.dll.config
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\ASMX.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\ASMX.pdb
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csc.exe
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csc.exe.config
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csc.rsp
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csi.exe
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csi.exe.config
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csi.rsp
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.AppContext.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Console.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.IO.Compression.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Claims.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.ValueTuple.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\vbc.exe
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\vbc.exe.config
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\vbc.rsp
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\VBCSCompiler.exe
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\Newtonsoft.Json.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\Newtonsoft.Json.xml
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\obj\Debug\ASMX.csprojAssemblyReference.cache
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\obj\Debug\ASMX.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\obj\Debug\ASMX.csproj.CopyComplete
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\obj\Debug\ASMX.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\obj\Debug\ASMX.pdb
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\ASMX.dll.config
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\ASMX.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\ASMX.pdb
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csc.exe
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csc.exe.config
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csc.rsp
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csi.exe
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csi.exe.config
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\csi.rsp
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.AppContext.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Console.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Claims.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\vbc.exe
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\vbc.exe.config
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\vbc.rsp
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\Newtonsoft.Json.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\Newtonsoft.Json.xml
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\obj\Debug\ASMX.csproj.AssemblyReference.cache
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\obj\Debug\ASMX.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\obj\Debug\ASMX.csproj.CopyComplete
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\obj\Debug\ASMX.dll
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7b\ASMX\obj\Debug\ASMX.pdb
