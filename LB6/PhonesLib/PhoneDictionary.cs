@@ -26,6 +26,7 @@ namespace PhonesLib
         {
             var contacts = GetConList();
             var contact = contacts.Where(p => p.Id.Equals(id)).FirstOrDefault();
+
             return contact;
         }
 
@@ -33,6 +34,7 @@ namespace PhonesLib
         {
             var contacts = GetConList();
             contacts.Add(item);
+
             var convertedJson = JsonConvert.SerializeObject(contacts, Formatting.Indented);
             using (StreamWriter w = new StreamWriter(path, false, System.Text.Encoding.Default))
             {
@@ -45,6 +47,7 @@ namespace PhonesLib
             var contacts = GetConList();
             Contact contact = contacts.Where(p => p.Id.Equals(id)).FirstOrDefault();
             contacts.Remove(contact);
+
             var convertedJson = JsonConvert.SerializeObject(contacts, Formatting.Indented);
             using (StreamWriter w = new StreamWriter(path, false, System.Text.Encoding.Default))
             {
@@ -57,7 +60,9 @@ namespace PhonesLib
             var contacts = GetConList();
             Contact contact = contacts.Where(p => p.Id.Equals(item.Id)).FirstOrDefault();
             contacts.Remove(contact);
+
             contacts.Add(item);
+
             var convertedJson = JsonConvert.SerializeObject(contacts, Formatting.Indented);
             using (StreamWriter w = new StreamWriter(path, false, System.Text.Encoding.Default))
             {

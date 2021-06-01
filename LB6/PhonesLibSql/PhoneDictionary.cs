@@ -48,8 +48,10 @@ namespace PhonesLibSql
             using (AppContext db = new AppContext())
             {
                 var contact = db.Contacts.Find(item.Id);
+
                 contact.Phone = item.Phone;
                 contact.Surname = item.Surname;
+
                 db.Entry<Contact>(contact).State = System.Data.Entity.EntityState.Modified;
                 db.SaveChanges();
             }
