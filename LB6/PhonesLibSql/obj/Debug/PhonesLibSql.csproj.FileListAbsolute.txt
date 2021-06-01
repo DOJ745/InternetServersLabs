@@ -40,3 +40,17 @@ C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLibSql\obj\Debug\PhonesLib
 C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLibSql\obj\Debug\PhonesLibSql.csproj.CopyComplete
 C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLibSql\obj\Debug\PhonesLibSql.dll
 C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLibSql\obj\Debug\PhonesLibSql.pdb
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\bin\Debug\PhonesLibSql.dll.config
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\bin\Debug\PhonesLibSql.dll
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\bin\Debug\PhonesLibSql.pdb
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\bin\Debug\EntityFramework.dll
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\bin\Debug\EntityFramework.SqlServer.dll
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\bin\Debug\Newtonsoft.Json.dll
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\bin\Debug\EntityFramework.xml
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\bin\Debug\EntityFramework.SqlServer.xml
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\bin\Debug\Newtonsoft.Json.xml
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\obj\Debug\PhonesLibSql.csproj.AssemblyReference.cache
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\obj\Debug\PhonesLibSql.csproj.CoreCompileInputs.cache
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\obj\Debug\PhonesLibSql.csproj.CopyComplete
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\obj\Debug\PhonesLibSql.dll
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLibSql\obj\Debug\PhonesLibSql.pdb

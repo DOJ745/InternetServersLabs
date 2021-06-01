@@ -1,8 +1,10 @@
-﻿@model PhonesLibSql.Contact
+﻿@* ДЛЯ SQL *@
 
-@*@model PhonesLib.Contact*@
+@model PhonesLibSql.Contact
 
-@* для json *@
+@* ДЛЯ JSON *@
+
+@* @model PhonesLib.Contact *@
 
 @using Phones.Helpers;
 
@@ -45,7 +47,7 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                 @Html.HelperButton("Save")
+                @Html.HelperButton("Save")
             </div>
         </div>
     </div>
