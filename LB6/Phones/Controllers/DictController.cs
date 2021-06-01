@@ -5,7 +5,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace Phones.Controllers
@@ -39,10 +38,13 @@ namespace Phones.Controllers
             {
                 string surname = Convert.ToString(collection["Surname"]);
                 string phone = Convert.ToString(collection["Phone"]);
+
                 var contacts = phones.GetConList();
                 var maxId = contacts.Max(p => p.Id);
+
                 Contact contact = new Contact() { Id = maxId + 1, Surname = surname, Phone = phone };
                 phones.Create(contact);
+
                 return RedirectToAction("Index");
             }
             catch
@@ -63,6 +65,7 @@ namespace Phones.Controllers
             {
                 var contacts = phones.GetConList();
                 var contact = contacts.Where(p => p.Id.Equals(id)).FirstOrDefault();
+
                 return View(contact);
             }
         }
@@ -76,8 +79,10 @@ namespace Phones.Controllers
                 string surname = Convert.ToString(collection["Surname"]);
                 string phone = Convert.ToString(collection["Phone"]);
                 int id = Convert.ToInt32(collection["Id"]);
+
                 Contact updatedContact = new Contact() { Id = id, Phone = phone, Surname = surname };
                 phones.Update(updatedContact);
+
                 return RedirectToAction("Index");
             }
             catch
@@ -97,6 +102,7 @@ namespace Phones.Controllers
             {
                 var contacts = phones.GetConList();
                 var contact = contacts.Where(p => p.Id.Equals(id)).FirstOrDefault();
+
                 return View();
             }
         }
