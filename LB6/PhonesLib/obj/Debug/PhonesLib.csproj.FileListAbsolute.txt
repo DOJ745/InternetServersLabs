@@ -1,0 +1,26 @@
+D:\!Фит ПОИТ\!6sem\ПИС\Решения\lab06 - DI\Phones\PhonesLib\bin\Debug\PhonesLib.dll
+D:\!Фит ПОИТ\!6sem\ПИС\Решения\lab06 - DI\Phones\PhonesLib\bin\Debug\PhonesLib.pdb
+D:\!Фит ПОИТ\!6sem\ПИС\Решения\lab06 - DI\Phones\PhonesLib\bin\Debug\Newtonsoft.Json.dll
+D:\!Фит ПОИТ\!6sem\ПИС\Решения\lab06 - DI\Phones\PhonesLib\bin\Debug\Newtonsoft.Json.xml
+D:\!Фит ПОИТ\!6sem\ПИС\Решения\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.csproj.CoreCompileInputs.cache
+D:\!Фит ПОИТ\!6sem\ПИС\Решения\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.csproj.CopyComplete
+D:\!Фит ПОИТ\!6sem\ПИС\Решения\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.dll
+D:\!Фит ПОИТ\!6sem\ПИС\Решения\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.pdb
+E:\lab06 - DI\Phones\PhonesLib\bin\Debug\PhonesLib.dll
+E:\lab06 - DI\Phones\PhonesLib\bin\Debug\PhonesLib.pdb
+E:\lab06 - DI\Phones\PhonesLib\bin\Debug\Newtonsoft.Json.dll
+E:\lab06 - DI\Phones\PhonesLib\bin\Debug\Newtonsoft.Json.xml
+E:\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.csprojAssemblyReference.cache
+E:\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.csproj.CoreCompileInputs.cache
+E:\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.csproj.CopyComplete
+E:\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.dll
+E:\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.pdb
+C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\bin\Debug\PhonesLib.dll
+C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\bin\Debug\PhonesLib.pdb
+C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.csproj.AssemblyReference.cache
+C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.csproj.CopyComplete
+C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.dll
+C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.pdb
