@@ -9,6 +9,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>MainView</title>
+
     <style type="text/css">
         div {
             display: inline-block;
@@ -119,7 +120,7 @@
 
         function WriteResponse(phoneBooks) {
 
-            var strResult = "<p><h2>Contacts</h2></p><table><th>ID</th><th>Surname</th><th>Phone</th>";
+            var strResult = "<p><h2>Contacts</h2></p><table border='1'><th>ID</th><th>Surname</th><th>Phone</th>";
 
             $.each(phoneBooks, function (index, book) {
                 strResult += "<tr><td>" + book.Id + "</td><td> " + book.Surname + "</td><td>" +
