@@ -31,7 +31,7 @@ namespace ASMX.Models
             return telephones.OrderBy(u => u.surname).ToList();
         }
 
-        public void insert(string surname, int number)
+        public void insert(string surname, string number)
         {
             this.telephones = selectAll();
             int id = 0;
@@ -46,7 +46,7 @@ namespace ASMX.Models
             saveChange(telephones);
         }
 
-        public void update(int id, string surname, int number)
+        public void update(int id, string surname, string number)
         {
             this.telephones = selectAll();
             int index = this.telephones.IndexOf(this.telephones.Find(x => x.id == id));
