@@ -34,9 +34,12 @@ namespace Lab7b
             this.Post = new System.Windows.Forms.Button();
             this.Put = new System.Windows.Forms.Button();
             this.Delete = new System.Windows.Forms.Button();
+
             this.id = new System.Windows.Forms.TextBox();
+
             this.name = new System.Windows.Forms.TextBox();
             this.num = new System.Windows.Forms.TextBox();
+
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,21 +48,21 @@ namespace Lab7b
             // 
             // Get
             // 
-            this.Get.Location = new System.Drawing.Point(35, 390);
+            this.Get.Location = new System.Drawing.Point(96, 390);
             this.Get.Name = "Get";
-            this.Get.Size = new System.Drawing.Size(75, 23);
+            this.Get.Size = new System.Drawing.Size(152, 23);
             this.Get.TabIndex = 0;
-            this.Get.Text = "Get";
+            this.Get.Text = "Get Contacts";
             this.Get.UseVisualStyleBackColor = true;
             this.Get.Click += new System.EventHandler(this.Get_Click);
             // 
             // Post
             // 
-            this.Post.Location = new System.Drawing.Point(201, 390);
+            this.Post.Location = new System.Drawing.Point(321, 390);
             this.Post.Name = "Post";
             this.Post.Size = new System.Drawing.Size(75, 23);
             this.Post.TabIndex = 1;
-            this.Post.Text = "Post";
+            this.Post.Text = "Add";
             this.Post.UseVisualStyleBackColor = true;
             this.Post.Click += new System.EventHandler(this.Post_Click);
             // 
@@ -69,13 +72,13 @@ namespace Lab7b
             this.Put.Name = "Put";
             this.Put.Size = new System.Drawing.Size(75, 23);
             this.Put.TabIndex = 2;
-            this.Put.Text = "Put";
+            this.Put.Text = "Update";
             this.Put.UseVisualStyleBackColor = true;
             this.Put.Click += new System.EventHandler(this.Put_Click);
             // 
             // Delete
             // 
-            this.Delete.Location = new System.Drawing.Point(633, 390);
+            this.Delete.Location = new System.Drawing.Point(483, 390);
             this.Delete.Name = "Delete";
             this.Delete.Size = new System.Drawing.Size(75, 23);
             this.Delete.TabIndex = 3;
@@ -138,6 +141,7 @@ namespace Lab7b
             // 
             this.richTextBox1.Location = new System.Drawing.Point(35, 12);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(719, 295);
             this.richTextBox1.TabIndex = 11;
             this.richTextBox1.Text = "";
@@ -159,7 +163,7 @@ namespace Lab7b
             this.Controls.Add(this.Post);
             this.Controls.Add(this.Get);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "LB7_C";
             this.ResumeLayout(false);
             this.PerformLayout();
 

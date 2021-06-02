@@ -21,21 +21,21 @@ namespace ServiceLib
         {
             telephoneDictionary.insert(surname, number);
 
-            return "OK";
+            return "Contact has been added!";
         }
 
         public string UpdDict(int id, string surname, string number)
         {
             telephoneDictionary.update(id, surname, number);
 
-            return "OK";
+            return "Contact has been updated!";
         }
 
         public string DelDict(int id)
         {
             telephoneDictionary.delete(id);
 
-            return "OK";
+            return "Contact has been deleted!";
         }
     }
 }
