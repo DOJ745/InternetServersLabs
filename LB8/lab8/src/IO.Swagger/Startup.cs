@@ -9,7 +9,6 @@
  */
 using System;
 using System.IO;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -19,8 +18,6 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
-using Swashbuckle.AspNetCore.Swagger;
-using Swashbuckle.AspNetCore.SwaggerGen;
 using IO.Swagger.Filters;
 using Microsoft.EntityFrameworkCore;
 
@@ -54,7 +51,9 @@ namespace IO.Swagger
         {
             // Add framework services.
             services
-                .AddDbContext<MyDbContext>(options => options.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\LabsFolder\InternetServersLabs\LB8\lab8\TelephoneDll\Users.mdf';Integrated Security=True"))
+                .AddDbContext<MyDbContext>(options => options.UseSqlServer(
+                    @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\LabsFolder\InternetServersLabs\LB8\lab8\TelephoneDll\Users.mdf';Integrated Security=True")
+                )
                 .AddMvc(options =>
                 {
                     options.InputFormatters.RemoveType<Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter>();
@@ -74,7 +73,7 @@ namespace IO.Swagger
                     c.SwaggerDoc("1.0", new OpenApiInfo
                     {
                         Version = "1.0",
-                        Title = "LeraX",
+                        Title = "LeraX (Why not Valera?)",
                         Description = "LeraX (ASP.NET Core 3.1)",
                         Contact = new OpenApiContact(),
                         TermsOfService = null
