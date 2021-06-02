@@ -1,0 +1,20 @@
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b2\bin\Debug\Lab7b.exe.config
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b2\bin\Debug\Lab7b.exe
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b2\bin\Debug\Lab7b.pdb
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b2\obj\Debug\Lab7b2.csprojAssemblyReference.cache
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b2\obj\Debug\Lab7b.Form1.resources
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b2\obj\Debug\Lab7b.Properties.Resources.resources
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b2\obj\Debug\Lab7b2.csproj.GenerateResource.cache
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b2\obj\Debug\Lab7b2.csproj.CoreCompileInputs.cache
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b2\obj\Debug\Lab7b.exe
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b2\obj\Debug\Lab7b.pdb
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\bin\Debug\Lab7b.exe.config
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\bin\Debug\Lab7b.exe
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\bin\Debug\Lab7b.pdb
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b2.csproj.AssemblyReference.cache
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b.Form1.resources
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b.Properties.Resources.resources
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b2.csproj.GenerateResource.cache
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b2.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b.exe
+C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b.pdb

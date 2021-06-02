@@ -1,0 +1,9 @@
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b\bin\Debug\Lab7b.exe.config
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b\bin\Debug\Lab7b.exe
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b\bin\Debug\Lab7b.pdb
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b\obj\Debug\Lab7b.Form1.resources
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b\obj\Debug\Lab7b.Properties.Resources.resources
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b\obj\Debug\Lab7b.csproj.GenerateResource.cache
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b\obj\Debug\Lab7b.csproj.CoreCompileInputs.cache
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b\obj\Debug\Lab7b.exe
+E:\labs\BELSTU\SERVER_prog\Lab7c\Lab7b\obj\Debug\Lab7b.pdb

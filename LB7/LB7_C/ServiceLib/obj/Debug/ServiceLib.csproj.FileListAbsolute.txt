@@ -1,0 +1,18 @@
+E:\labs\BELSTU\SERVER_prog\Lab7c\ServiceLib\bin\Debug\ServiceLib.dll
+E:\labs\BELSTU\SERVER_prog\Lab7c\ServiceLib\bin\Debug\ServiceLib.pdb
+E:\labs\BELSTU\SERVER_prog\Lab7c\ServiceLib\bin\Debug\Newtonsoft.Json.dll
+E:\labs\BELSTU\SERVER_prog\Lab7c\ServiceLib\bin\Debug\Newtonsoft.Json.xml
+E:\labs\BELSTU\SERVER_prog\Lab7c\ServiceLib\obj\Debug\ServiceLib.csproj.CoreCompileInputs.cache
+E:\labs\BELSTU\SERVER_prog\Lab7c\ServiceLib\obj\Debug\ServiceLib.csproj.CopyComplete
+E:\labs\BELSTU\SERVER_prog\Lab7c\ServiceLib\obj\Debug\ServiceLib.dll
+E:\labs\BELSTU\SERVER_prog\Lab7c\ServiceLib\obj\Debug\ServiceLib.pdb
+E:\labs\BELSTU\SERVER_prog\Lab7c\ServiceLib\obj\Debug\ServiceLib.csprojAssemblyReference.cache
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\bin\Debug\ServiceLib.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\bin\Debug\ServiceLib.pdb
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\obj\Debug\ServiceLib.csprojAssemblyReference.cache
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\obj\Debug\ServiceLib.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\obj\Debug\ServiceLib.csproj.CopyComplete
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\obj\Debug\ServiceLib.dll
+C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\obj\Debug\ServiceLib.pdb

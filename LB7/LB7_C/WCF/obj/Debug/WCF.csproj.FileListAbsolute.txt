@@ -1,0 +1,14 @@
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\bin\Debug\WCF.exe.config
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\bin\Debug\WCF.exe
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\bin\Debug\WCF.pdb
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\bin\Debug\ServiceLib.dll
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\bin\Debug\Newtonsoft.Json.dll
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\bin\Debug\ServiceLib.pdb
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\bin\Debug\Newtonsoft.Json.xml
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\obj\Debug\WCF.csprojAssemblyReference.cache
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\obj\Debug\WCF.ProjectInstaller.resources
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\obj\Debug\WCF.csproj.GenerateResource.cache
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\obj\Debug\WCF.csproj.CoreCompileInputs.cache
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\obj\Debug\WCF.csproj.CopyComplete
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\obj\Debug\WCF.exe
+E:\labs\BELSTU\SERVER_prog\Lab7c\WCF\obj\Debug\WCF.pdb
