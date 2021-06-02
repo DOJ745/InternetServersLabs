@@ -17,14 +17,14 @@ namespace ServiceLib
             return telephoneDictionary.selectAll();
         }
 
-        public string AddDict(string surname, int number)
+        public string AddDict(string surname, string number)
         {
             telephoneDictionary.insert(surname, number);
 
             return "OK";
         }
 
-        public string UpdDict(int id, string surname, int number)
+        public string UpdDict(int id, string surname, string number)
         {
             telephoneDictionary.update(id, surname, number);
 

@@ -1,4 +1,6 @@
-﻿namespace Lab7b
+﻿using System;
+
+namespace Lab7b
 {
     partial class Form1
     {
@@ -101,6 +103,7 @@
             this.num.Name = "num";
             this.num.Size = new System.Drawing.Size(152, 22);
             this.num.TabIndex = 6;
+            this.num.TextChanged += new System.EventHandler(this.num_TextChanged);
             // 
             // label1
             // 
@@ -160,6 +163,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void num_TextChanged(object sender, EventArgs e)
+        {
+            //throw new NotImplementedException();
         }
 
         #endregion

@@ -18,3 +18,13 @@ C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b2.csproj.Gener
 C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b2.csproj.CoreCompileInputs.cache
 C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b.exe
 C:\Users\Andrei\Desktop\6-8\MVC LAB-7\Lab7c\Lab7b2\obj\Debug\Lab7b.pdb
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Lab7b2\obj\Debug\Lab7b2.csproj.AssemblyReference.cache
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Lab7b2\obj\Debug\Lab7b.Form1.resources
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Lab7b2\obj\Debug\Lab7b.Properties.Resources.resources
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Lab7b2\obj\Debug\Lab7b2.csproj.GenerateResource.cache
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Lab7b2\obj\Debug\Lab7b2.csproj.CoreCompileInputs.cache
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Lab7b2\obj\Debug\Lab7b.exe
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Lab7b2\obj\Debug\Lab7b.pdb
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Lab7b2\bin\Debug\Lab7b.exe.config
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Lab7b2\bin\Debug\Lab7b.exe
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Lab7b2\bin\Debug\Lab7b.pdb

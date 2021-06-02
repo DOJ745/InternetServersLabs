@@ -101,10 +101,10 @@ namespace Lab7b.ServiceReference {
         string GetAll();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/AddDict", ReplyAction="http://tempuri.org/IMyService/AddDictResponse")]
-        string AddDict(string surname, int number);
+        string AddDict(string surname, string number);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/UpdDict", ReplyAction="http://tempuri.org/IMyService/UpdDictResponse")]
-        string UpdDict(int id, string surname, int number);
+        string UpdDict(int id, string surname, string number);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/DelDict", ReplyAction="http://tempuri.org/IMyService/DelDictResponse")]
         string DelDict(int id);
@@ -145,11 +145,11 @@ namespace Lab7b.ServiceReference {
             return base.Channel.GetAll();
         }
         
-        public string AddDict(string surname, int number) {
+        public string AddDict(string surname, string number) {
             return base.Channel.AddDict(surname, number);
         }
         
-        public string UpdDict(int id, string surname, int number) {
+        public string UpdDict(int id, string surname, string number) {
             return base.Channel.UpdDict(id, surname, number);
         }
         

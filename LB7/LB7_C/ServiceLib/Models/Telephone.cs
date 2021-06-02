@@ -9,6 +9,6 @@ namespace ServiceLib.Models
     {
         public int id;
         public string surname;
-        public int number;
+        public string number;
     }
 }

@@ -20,18 +20,18 @@ namespace ServiceLib.Models
 
         public string getAll()
         {
-            string jsonString = File.ReadAllText(@"C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\App_Data\numbers.json");
+            string jsonString = File.ReadAllText(@"D:\LabsFolder\InternetServersLabs\LB7\LB7_C\ServiceLib\App_Data\numbers.json");
             return jsonString;
         }
 
         public List<Telephone> selectAll()
         {
-            string jsonString = File.ReadAllText(@"C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\App_Data\numbers.json");
+            string jsonString = File.ReadAllText(@"D:\LabsFolder\InternetServersLabs\LB7\LB7_C\ServiceLib\App_Data\numbers.json");
             this.telephones = JsonConvert.DeserializeObject<List<Telephone>>(jsonString).ToList();
             return telephones.OrderBy(u => u.surname).ToList();
         }
 
-        public void insert(string surname, int number)
+        public void insert(string surname, string number)
         {
             this.telephones = selectAll();
             int id = 0;
@@ -46,7 +46,7 @@ namespace ServiceLib.Models
             saveChange(telephones);
         }
 
-        public void update(int id, string surname, int number)
+        public void update(int id, string surname, string number)
         {
             this.telephones = selectAll();
             int index = this.telephones.IndexOf(this.telephones.Find(x => x.id == id));
@@ -72,7 +72,7 @@ namespace ServiceLib.Models
         public void saveChange(List<Telephone> telephones)
         {
             string jsonString = JsonConvert.SerializeObject(telephones);
-            File.WriteAllText(@"C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\ServiceLib\App_Data\numbers.json", jsonString);
+            File.WriteAllText(@"D:\LabsFolder\InternetServersLabs\LB7\LB7_C\ServiceLib\App_Data\numbers.json", jsonString);
         }
     }
 }

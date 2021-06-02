@@ -22,3 +22,15 @@ C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\Server\obj\Debug\Server.csproj.CoreCompile
 C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\Server\obj\Debug\Server.csproj.CopyComplete
 C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\Server\obj\Debug\Server.exe
 C:\Users\Paul\Desktop\MVC LAB-7\Lab7c\Server\obj\Debug\Server.pdb
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\bin\Debug\Server.exe.config
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\bin\Debug\Server.exe
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\bin\Debug\Server.pdb
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\bin\Debug\ServiceLib.dll
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\bin\Debug\Newtonsoft.Json.dll
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\bin\Debug\ServiceLib.pdb
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\bin\Debug\Newtonsoft.Json.xml
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\obj\Debug\Server.csproj.CopyComplete
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\obj\Debug\Server.exe
+D:\LabsFolder\InternetServersLabs\LB7\LB7_C\Server\obj\Debug\Server.pdb

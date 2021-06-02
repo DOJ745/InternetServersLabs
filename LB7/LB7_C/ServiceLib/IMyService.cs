@@ -11,9 +11,9 @@ namespace ServiceLib
         [OperationContract]
         string GetAll();
         [OperationContract]
-        string AddDict(string surname, int number);
+        string AddDict(string surname, string number);
         [OperationContract]
-        string UpdDict(int id, string surname, int number);
+        string UpdDict(int id, string surname, string number);
         [OperationContract]
         string DelDict(int id);
     }

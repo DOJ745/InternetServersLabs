@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.ServiceModel;
 
 namespace Lab7b
 {
@@ -30,7 +22,7 @@ namespace Lab7b
         private void Post_Click(object sender, EventArgs e)
         {
             string name = this.name.Text;
-            int number = Convert.ToInt32(this.num.Text);
+            string number = this.num.Text;
 
             if (this.client.AddDict(name, number) == "OK")
             {
@@ -45,7 +37,7 @@ namespace Lab7b
         private void Put_Click(object sender, EventArgs e)
         {
             string name = this.name.Text;
-            int number = Convert.ToInt32(this.num.Text);
+            string number = this.num.Text;
             int id = Convert.ToInt32(this.id.Text);
 
             if (this.client.UpdDict(id, name, number) == "OK")
@@ -78,6 +70,11 @@ namespace Lab7b
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void num_textChanged(object sender, EventArgs e)
         {
 
         }
