@@ -10,7 +10,7 @@ namespace ASMX
     /// Сводное описание для WebService
     /// </summary>
     /// 
-    [WebService(Namespace = "http://tempuri.org/")]
+    [WebService(Description = "LB7_B", Namespace = "http://tempuri.org/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
 
@@ -21,7 +21,7 @@ namespace ASMX
         Models.TelephoneDictionary telephoneDictionary = new Models.TelephoneDictionary();
 
 
-        [WebMethod(Description = "Get JSON collection", EnableSession = true)]
+        [WebMethod(Description = "Get raw JSON collection", EnableSession = true)]
         public string GetJSONCollection()
         {
             return telephoneDictionary.getAll();
