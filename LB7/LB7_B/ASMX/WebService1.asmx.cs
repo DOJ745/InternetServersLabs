@@ -20,7 +20,7 @@ namespace ASMX
         [WebMethod]
         public string HelloWorld()
         {
-            return "Привет всем!";
+            return "Hello world!";
         }
     }
 }

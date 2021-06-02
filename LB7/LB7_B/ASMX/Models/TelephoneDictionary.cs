@@ -20,13 +20,13 @@ namespace ASMX.Models
 
         public string getAll()
         {
-            string jsonString = File.ReadAllText(@"C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\App_Data\numbers.json");
+            string jsonString = File.ReadAllText(@"D:\LabsFolder\InternetServersLabs\LB7\LB7_B\ASMX\App_Data\numbers.json");
             return jsonString;
         }
 
         public List<Telephone> selectAll()
         {
-            string jsonString = File.ReadAllText(@"C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\App_Data\numbers.json");
+            string jsonString = File.ReadAllText(@"D:\LabsFolder\InternetServersLabs\LB7\LB7_B\ASMX\App_Data\numbers.json");
             this.telephones = JsonConvert.DeserializeObject<List<Telephone>>(jsonString).ToList();
             return telephones.OrderBy(u => u.surname).ToList();
         }
@@ -72,7 +72,7 @@ namespace ASMX.Models
         public void saveChange(List<Telephone> telephones)
         {
             string jsonString = JsonConvert.SerializeObject(telephones);
-            File.WriteAllText(@"C:\Users\Paul\Desktop\MVC LAB-7\Lab7b\ASMX\App_Data\numbers.json", jsonString);
+            File.WriteAllText(@"D:\LabsFolder\InternetServersLabs\LB7\LB7_B\ASMX\App_Data\numbers.json", jsonString);
         }
     }
 }
