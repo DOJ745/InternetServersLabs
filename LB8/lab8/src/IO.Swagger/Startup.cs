@@ -54,7 +54,7 @@ namespace IO.Swagger
         {
             // Add framework services.
             services
-                .AddDbContext<MyDbContext>(options => options.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\Users\Paul\Desktop\SwaggerASP\lab8\TelephoneDll\Users.mdf';Integrated Security=True"))
+                .AddDbContext<MyDbContext>(options => options.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\LabsFolder\InternetServersLabs\LB8\lab8\TelephoneDll\Users.mdf';Integrated Security=True"))
                 .AddMvc(options =>
                 {
                     options.InputFormatters.RemoveType<Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter>();
