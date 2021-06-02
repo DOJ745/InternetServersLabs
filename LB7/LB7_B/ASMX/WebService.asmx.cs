@@ -28,13 +28,13 @@ namespace ASMX
         }
 
         [WebMethod(Description = "Get all contacts", EnableSession = true)]
-        public List<Models.Telephone> GetContacts()
+        public List<Models.Telephone> GetDict()
         {
             return telephoneDictionary.selectAll();
         }
 
         [WebMethod(Description = "Add new contact", EnableSession = true)]
-        public string AddContact(string surname, string number)
+        public string AddDict(string surname, string number)
         {
             telephoneDictionary.insert(surname, number);
 
@@ -42,7 +42,7 @@ namespace ASMX
         }
 
         [WebMethod(Description = "Update contact by ID", EnableSession = true)]
-        public string UpdateContact(int id, string surname, string number)
+        public string UpdDict(int id, string surname, string number)
         {
             telephoneDictionary.update(id, surname, number);
 
@@ -50,7 +50,7 @@ namespace ASMX
         }
 
         [WebMethod(Description = "Delete contact by ID", EnableSession = true)]
-        public string DeleteContact(int id)
+        public string DelDict(int id)
         {
             telephoneDictionary.delete(id);
 
