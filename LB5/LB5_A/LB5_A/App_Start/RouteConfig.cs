@@ -44,7 +44,7 @@ namespace LB5_A
               defaults: new { controller = "MResearch", action = UrlParameter.Optional, id = UrlParameter.Optional }
             );
 
-            /*routes.MapRoute(
+            routes.MapRoute(
               name: "M-8",
               url: "V2/{controller}",
               defaults: new { controller = "MResearch", action = "M02" }
@@ -78,7 +78,7 @@ namespace LB5_A
                 name: "M",
                 url: "",
                 defaults: new { controller = "MResearch", action = "M01", id = UrlParameter.Optional }
-            );*/
+            );
 
 
             routes.MapRoute(

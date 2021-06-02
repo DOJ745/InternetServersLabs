@@ -1,0 +1,154 @@
+openapi: 3.0.0
+info:
+  version: '1.0'
+  title: LeraX
+tags:
+  - name: Lera
+
+paths:
+  /api/Lera:
+    get:
+      tags:
+        - Lera
+      summary: Get All Users
+      description: create 24.07.2020
+      responses:
+        200:
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                    userslist:
+                        $ref: '#/components/schemas/Userslist'
+    post:
+      tags:
+        - Lera
+      summary: Add User
+      description: create 24.07.2020
+      requestBody:
+        content:
+          application/json-patch+json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        200:
+          description: User updated
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/User'
+        400:
+          description: User not added
+    put:
+      tags:
+        - Lera
+      summary: Update User by id
+      description: create 24.07.2020
+      requestBody:
+        content:
+          application/json-patch+json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        200:
+          description: User updated
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/User'
+        400:
+          description: User not added
+  /api/Lera/{id}:
+    get:
+      tags:
+        - Lera
+      summary: Get User by id
+      description: create 24.07.2020
+      parameters:
+        - name: id
+          in: path
+          description: The User id
+          required: true
+          schema:
+            $ref: '#/components/schemas/User/properties/id'
+      responses:
+        200:
+          description: User found
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/User'
+        404:
+          description: User not found
+    delete:
+      tags:
+        - Lera
+      summary: Delete User by id
+      description: create 24.07.2020
+      parameters:
+        - name: id
+          in: path
+          description: The User id
+          required: true
+          schema:
+            $ref: '#/components/schemas/User/properties/id'
+      responses:
+        200:
+          description: User deleted
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/User'
+        404:
+          description: User not found
+
+components:
+  schemas:
+    User:
+      type: object
+      required:
+      - id
+      - email
+      - password
+      - status
+      - role
+      properties:
+        id:
+          type: integer
+          format: int32
+          example: 101
+          description: Users Id
+        lastName:
+          type: string
+          nullable: true
+          example: Adam Smith
+          description: Users Surname
+        firstName:
+          type: string
+          example: Adam
+          description: Users Name
+        email:
+          type: string
+          format: email
+          example: xxx@yyy.com
+          description: Users e-mail
+        password:
+          type: string
+          example: p@$$w0rd
+          description: password
+        status:
+          type: string
+          example: active
+          description: active/passive
+        role:
+          type: string
+          example: customer
+          description: admin/customer/HR
+    Userslist:
+      type: array
+      nullable: true
+      items:
+        $ref: '#/components/schemas/User'
+      
