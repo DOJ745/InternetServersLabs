@@ -81,9 +81,9 @@ namespace IO.Swagger.Controllers
             User user = ctxt.Users.Find(id);
 
             var resp = new ObjectResult(user);
-            if (user == null) {
-                resp.StatusCode = 404;
-            } else {
+            if (user == null) { resp.StatusCode = 404; } 
+            else 
+            {
                 ctxt.Users.Remove(user);
                 ctxt.SaveChanges();
                 resp.StatusCode = 200;
@@ -119,11 +119,9 @@ namespace IO.Swagger.Controllers
             User user = ctxt.Users.Find(id);
             var resp = new ObjectResult(user);
 
-            if (user == null) {
-                resp.StatusCode = 404;
-            } else {
-                resp.StatusCode = 200;
-            }
+            if (user == null) { resp.StatusCode = 404; } 
+            else { resp.StatusCode = 200; }
+
             return resp;
         }
 
@@ -155,9 +153,9 @@ namespace IO.Swagger.Controllers
                 ctxt.Users.Add(body);
                 ctxt.SaveChanges();
                 resp.StatusCode = 200;
-            } else {
-                resp.StatusCode = 400;
-            }
+            } 
+            else { resp.StatusCode = 400; }
+
             return resp;
         }
 
@@ -188,17 +186,20 @@ namespace IO.Swagger.Controllers
             //            : default(User);            //TODO: Change the data returned
             var resp = new ObjectResult(body);
             var user = ctxt.Users.Find(body.Id);
+
             user.LastName = body.LastName;
             user.FirstName = body.FirstName;
             user.Email = body.Email;
             user.Password = body.Password;
-            if (user == null) {
-                resp.StatusCode = 400;
-            } else {
+
+            if (user == null) { resp.StatusCode = 400; } 
+            else 
+            {
                 ctxt.Users.Update(user);
                 ctxt.SaveChanges();
                 resp.StatusCode = 200;
             }
+
             return resp;
         }
     }

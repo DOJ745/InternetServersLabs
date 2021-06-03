@@ -74,7 +74,7 @@ namespace IO.Swagger
                     {
                         Version = "1.0",
                         Title = "LeraX (Why not Valera?)",
-                        Description = "LeraX (ASP.NET Core 3.1)",
+                        Description = "LeraX (LB8 - ASP.NET Core 3.1)",
                         Contact = new OpenApiContact(),
                         TermsOfService = null
                     });
