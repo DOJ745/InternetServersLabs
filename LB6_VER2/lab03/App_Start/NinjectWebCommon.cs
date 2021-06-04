@@ -47,10 +47,11 @@ namespace lab03.App_Start
             {
                 kernel.Bind<Func<IKernel>>().ToMethod(ctx => () => new Bootstrapper().Kernel);
                 kernel.Bind<IHttpModule>().To<HttpApplicationInitializationHttpModule>();
-                //kernel.Bind<IPhoneDictionary>().To<PhoneDictionary.PhoneDictionary>().InTransientScope(); // - задание 1
-              // kernel.Bind<IPhoneDictionary>().To<PhoneDictionary.PhoneDictionary>().InThreadScope();    // - задание 2
-                kernel.Bind<IPhoneDictionary>().To<PhoneDictionary.PhoneDictionary>().InRequestScope();   // - задание 3
-               //kernel.Bind<IPhoneDictionary>().To<PhoneBookContext>().InSingletonScope();   // - sql
+
+                //kernel.Bind<IPhoneDictionary>().To<PhoneDictionary.PhoneDictionary>().InTransientScope(); // - TASK 1
+                //kernel.Bind<IPhoneDictionary>().To<PhoneDictionary.PhoneDictionary>().InThreadScope();    // - TASK 2
+                kernel.Bind<IPhoneDictionary>().To<PhoneDictionary.PhoneDictionary>().InRequestScope();   // - TASK 3
+                //kernel.Bind<IPhoneDictionary>().To<PhoneBookContext>().InSingletonScope();   // - sql
 
 
                 RegisterServices(kernel);
