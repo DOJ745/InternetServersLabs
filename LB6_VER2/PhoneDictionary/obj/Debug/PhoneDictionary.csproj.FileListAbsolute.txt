@@ -54,3 +54,17 @@ C:\Users\Andrei\Desktop\6-8\lab_6\PhoneDictionary\obj\Debug\PhoneDictionary.cspr
 C:\Users\Andrei\Desktop\6-8\lab_6\PhoneDictionary\obj\Debug\PhoneDictionary.csproj.CopyComplete
 C:\Users\Andrei\Desktop\6-8\lab_6\PhoneDictionary\obj\Debug\PhoneDictionary.dll
 C:\Users\Andrei\Desktop\6-8\lab_6\PhoneDictionary\obj\Debug\PhoneDictionary.pdb
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\bin\Debug\PhoneDictionary.dll.config
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\bin\Debug\PhoneDictionary.dll
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\bin\Debug\PhoneDictionary.pdb
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\bin\Debug\EntityFramework.dll
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\bin\Debug\EntityFramework.SqlServer.dll
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\bin\Debug\Newtonsoft.Json.dll
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\bin\Debug\EntityFramework.xml
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\bin\Debug\EntityFramework.SqlServer.xml
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\bin\Debug\Newtonsoft.Json.xml
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\obj\Debug\PhoneDictionary.csproj.AssemblyReference.cache
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\obj\Debug\PhoneDictionary.csproj.CoreCompileInputs.cache
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\obj\Debug\PhoneDictionary.csproj.CopyComplete
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\obj\Debug\PhoneDictionary.dll
+D:\LabsFolder\InternetServersLabs\LB6_VER2\PhoneDictionary\obj\Debug\PhoneDictionary.pdb

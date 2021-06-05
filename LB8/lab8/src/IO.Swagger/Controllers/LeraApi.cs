@@ -31,7 +31,7 @@ namespace IO.Swagger.Controllers
         /// <summary>
         /// Get All Users
         /// </summary>
-        /// <remarks>create 24.07.2020</remarks>
+        /// <remarks>create 24.07.2022</remarks>
         /// <response code="200">Success</response>
         [HttpGet]
         [Route("/api/Lera")]
