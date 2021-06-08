@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using LB5_B.Filters;
+using System.Web.Mvc;
 
 namespace LB5_B.Controllers
 {
@@ -62,9 +63,10 @@ namespace LB5_B.Controllers
         }
 
         [HttpGet]
-        public ActionResult MXX()
+        [Route(@"{str:regex(MXX)}")]
+        public ActionResult MXX(int? id)
         {
-            return View("Error");
+            return View();
         }
 
     }
