@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 
 namespace LB5_B.Controllers
 {
@@ -25,7 +26,7 @@ namespace LB5_B.Controllers
         }
 
         [HttpPost]
-        [OutputCache(Duration = 7)]
+        [OutputCache(Duration = 7, Location = OutputCacheLocation.Any, VaryByHeader = "user-agent")]
         public ActionResult AP(int x, int y)
         {
             Response.Write("<h3>Counter: " + DateTime.Now.ToString() + " --- Result --- " + (x + y) + "</h3>");
