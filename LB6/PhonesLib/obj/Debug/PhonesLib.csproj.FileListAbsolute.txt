@@ -24,3 +24,12 @@ C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.cs
 C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.csproj.CopyComplete
 C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.dll
 C:\Users\Andrei\Desktop\lab06\lab06 - DI\Phones\PhonesLib\obj\Debug\PhonesLib.pdb
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLib\bin\Debug\PhonesLib.dll
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLib\bin\Debug\PhonesLib.pdb
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLib\bin\Debug\Newtonsoft.Json.dll
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLib\bin\Debug\Newtonsoft.Json.xml
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLib\obj\Debug\PhonesLib.csproj.AssemblyReference.cache
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLib\obj\Debug\PhonesLib.csproj.CoreCompileInputs.cache
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLib\obj\Debug\PhonesLib.csproj.CopyComplete
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLib\obj\Debug\PhonesLib.dll
+D:\LabsFolder\InternetServersLabs\LB6\PhonesLib\obj\Debug\PhonesLib.pdb
