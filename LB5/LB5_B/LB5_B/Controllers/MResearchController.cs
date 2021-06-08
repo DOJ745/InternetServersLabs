@@ -32,12 +32,11 @@ namespace LB5_B.Controllers
         [Route("{f:float}/{str:length(2,5)}")]
         public ActionResult M03(float f, string str)
         {
-
             Response.Write("<h3>" + 
                 HttpContext.Request.HttpMethod + ":" + 
                 nameof(M03) + ":/" + f + "/" + str + "</h3>");
             
-            return View("M03");
+            return View();
         }
 
         [HttpPut]
