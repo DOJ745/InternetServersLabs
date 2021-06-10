@@ -50,6 +50,8 @@ namespace LB5_B.Controllers
             return View();
         }
 
+        //[Route(@"{mail:regex(^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$)}")]
+
         [HttpPost]
         [Route(@"{mail:regex(^([\w.-]+)@([\w-]+)((.(\w){2,3})+)$)}")]
         public ActionResult M04(string mail)

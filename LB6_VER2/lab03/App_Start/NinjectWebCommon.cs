@@ -51,7 +51,7 @@ namespace lab03.App_Start
                 //kernel.Bind<IPhoneDictionary>().To<PhoneDictionary.PhoneDictionary>().InTransientScope(); // - TASK 1
                 //kernel.Bind<IPhoneDictionary>().To<PhoneDictionary.PhoneDictionary>().InThreadScope();    // - TASK 2
                 kernel.Bind<IPhoneDictionary>().To<PhoneDictionary.PhoneDictionary>().InRequestScope();   // - TASK 3
-                //kernel.Bind<IPhoneDictionary>().To<PhoneBookContext>().InSingletonScope();   // - sql
+                //kernel.Bind<IPhoneDictionary>().To<PhoneBookContext>().InSingletonScope();   
 
 
                 RegisterServices(kernel);
